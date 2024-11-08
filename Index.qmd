@@ -121,6 +121,48 @@ ggplot(mc, aes(x = geno, y = emmean, fill = riego)) +
   theme_minimal() + 
   theme(axis.text.x = element_text(angle = 45,hjust = 1))
 ```
+#Análisis multivariado
+```{r}
+library(tidyverse)
+library(psych)
+
+data %>%
+  select_if(is.numeric) %>% 
+  dplyr::select(!c("block")) %>%
+                   pairs.panels(x = .
+             , hist.col="red"
+             , pch = 21
+             , stars = TRUE
+             , scale = FALSE
+             , lm = TRUE
+                   )
+```
+# Análisis de componentes principales PCA
+```{r}
+library(FactoMineR)
+install.packages("cowplot")
+library(cowplot)
+
+
+mm1 <- data %>%
+  group_by(riego, geno) %>% 
+  summarise(across(where(is.numeric), ~ mean(., na.rm = TRUE))) %>% 
+  PCA(scale.unit = T, quali.sup = c(1:4), graph = F)
+
+
+p1 <- plot(mm1
+     , choix="ind"
+     , habillage=1
+     , label = "ind"
+     )
+
+
+p2 <- plot(mm1
+     , choix="var")
+
+list(p1, p2) %>% 
+  plot_grid(plotlist=.,nrow=1)
+```
 
 
 
