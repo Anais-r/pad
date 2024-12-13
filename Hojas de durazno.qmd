@@ -1,5 +1,5 @@
 ---
-title: "Uso de Miniconda y Label studio en hojas de durazno"
+title: "Biometría en hojas de durazno"
 author: "Giordani, Eunis, Omar, Stefani, Ruth"
 format: html
 editor: visual
@@ -54,7 +54,7 @@ Desarrollar habilidades en el uso de Label Studio para la anotación de imágene
 
     Luego se realiza la ejecución dónde saldrá la plataforma de label studio, de manera que se crea una cuenta.
 
-    ![](images/EJECICIÓN DE CÓDIGO.jpg)
+    ![](images/EJECICIÓN DE CÓDIGO.jpg){width="543"}
 
 ```{}
 ```
