@@ -3,6 +3,7 @@ title: "Biometría en hojas de durazno"
 author: "Giordani, Eunis, Omar, Stefani, Ruth"
 format: html
 editor: visual
+output-file: index.html
 ---
 
 ## INTRODUCCIÓN
@@ -21,7 +22,7 @@ Explorar las funcionalidades de la plataforma Miniconda para la gestión de ento
 
 Desarrollar habilidades en el uso de Label Studio para la anotación de imágenes de hojas de durazno.
 
-```{}
+```         
 ```
 
 ## METODOLOGÍA
@@ -38,48 +39,48 @@ Desarrollar habilidades en el uso de Label Studio para la anotación de imágene
 
 3.  Descarga e instalación de Miniconda
 
-![](images/INSTALACIÓN MN.jpg)
+![](images/INSTALACIÓN%20MN.jpg)
 
 5.  Encontramos los códigos para trabajar en base a código abierto en label studio
 
-    ![](images/USO DE CÓDIGOS.jpg){width="316"}
+    ![](images/USO%20DE%20CÓDIGOS.jpg){width="316"}
 
 6.  Entrar a la platraforma de miniconda de código abierto.
 
     En este paso se colocarán los códigos de "pip install" para vincular miniconda con label studio y nos pueda facilitar un sitio web dónde se pueda trabajar de manera remota, luego se abre con "label-studio", para abrir el programa y puedas usar las veces que sean necesarias.
 
-    ![](images/PLATAFORMA DE CÓDIGO ABIERTO-01.jpg)
+    ![](images/PLATAFORMA%20DE%20CÓDIGO%20ABIERTO-01.jpg)
 
 7.  Ejecución delos códigos:
 
     Luego se realiza la ejecución dónde saldrá la plataforma de label studio, de manera que se crea una cuenta.
 
-    ![](images/EJECICIÓN DE CÓDIGO.jpg){width="543"}
+    ![](images/EJECICIÓN%20DE%20CÓDIGO.jpg){width="543"}
 
-```{}
+```         
 ```
 
 8.  Se crea un nuevo proyecto.
 
     Acá en dónde se podrá subir las imágenes tomadas anteriormente, considerar los formatos establecidos, como por ejemplo el JPG
 
-    ![](images/CREAMOS UN PROYECTO NUEVO-01.jpg)
+    ![](images/CREAMOS%20UN%20PROYECTO%20NUEVO-01.jpg)
 
 9.  Elegir la segmentación de polígonos
 
     Con esta segmentación nos permitirá designar como trabajar con las figuras, ya que en este caso se identificarán la moneda y la hoja, así como el color con el que cada uno será trabajado, en este caso rojo y azul.
 
-    ![](images/ELEGIR LA SEGMENTACIÓN POR POLÍGONO.jpg){width="306"}![](images/DESIGNACIÓN DE NOMBRES .jpg){width="313"}
+    ![](images/ELEGIR%20LA%20SEGMENTACIÓN%20POR%20POLÍGONO.jpg){width="306"}![](images/DESIGNACIÓN%20DE%20NOMBRES%20.jpg){width="313"}
 
 10. Realizamos trazo de la hoja y moneda respectivamente.
 
-    ![](images/TRAZO DE LOS BORDES.jpg){width="190"}![](images/TRAZO DE TODA LA HOJA.jpg){width="226"}![](images/MONEDA.jpg){width="187"}
+    ![](images/TRAZO%20DE%20LOS%20BORDES.jpg){width="190"}![](images/TRAZO%20DE%20TODA%20LA%20HOJA.jpg){width="226"}![](images/MONEDA.jpg){width="187"}
 
 ## RESULTADOS
 
 Se realizó cada el trazo de cada una de las imágenes.
 
-![](images/TRAZO DE TODO.jpg)
+![](images/TRAZO%20DE%20TODO.jpg)
 
 Se tiene en cuenta esto para determinar el área foliar de acuerdo a las dimensiones promedio, distribución del área, dínde sepuede determinar el área promedio de las hojas y se adecuará de acuerdo al estudio que se quiera realizar.
 
